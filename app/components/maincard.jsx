@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { getWeatherData } from '../utils/weatherApi';
-import Card from './Card';
+import Card from './card';
 
 const Maincard = () => {
     const [weatherData, setWeatherData] = useState(null);
